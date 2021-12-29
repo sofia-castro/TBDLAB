@@ -1,0 +1,14 @@
+INSERT INTO Voluntario(id,nombre,disponibilidad,telefono,direccion, correo_electronico )
+VALUES(1,'juan','TRUE','+1234234','santiago','aa@aa.com'),
+       (2, 'pedro','TRUE','+1231231','Independencia','p@gmail.com' ), 
+       (3, 'diego', 'TRUE', '+5432122', 'melipilla', 'udhe@hotmail.com'),
+       (4, 'Ana', 'TRUE', '+1234567', 'puente alto', 'ana@gmail.com');
+
+INSERT INTO Emergencia(id,titulo,direccion,descripcion,id_institucion,activo)
+VALUES(1,'AuxilioMeDesmayo','chile','me he mareado ayuda','1', TRUE);
+
+INSERT INTO Estado_tarea(id,estado)
+VALUES (1, TRUE);
+
+INSERT INTO Institucion(id,nombre_institucion,direccion_institucion,telefono_institucion,dominio_institucion)
+VALUES(1,'caritas','calle 100pre viva','163465','@caritas.cl');
